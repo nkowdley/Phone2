@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewEMTagTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/emtagtheme_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/emtagtheme_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonEMTagTheme" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/emtagtheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonEMTagTheme" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/emtagtheme_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerEMTagTheme" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/emtagtheme_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/emtagtheme_list_selector_holo_light</item>
+  </style>
+
+  <style name="TabEMTagTheme">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/emtagtheme_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextEMTagTheme">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarEMTagTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/emtagtheme_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/emtagtheme_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarEMTagTheme" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/emtagtheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/emtagtheme_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/emtagtheme_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarEMTagTheme" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/emtagtheme_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/emtagtheme_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigEMTagTheme" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/emtagtheme_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/emtagtheme_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallEMTagTheme" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/emtagtheme_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/emtagtheme_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleEMTagTheme" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/emtagtheme_btn_toggle_holo_light</item>
+  </style>
+  
+  <style name="ActionBarEMTagTheme" parent="android:Widget.Holo.Light.ActionBar">
+      <item name="android:background">#ffff4444</item>
+      <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+  </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+           parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText"
+           parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

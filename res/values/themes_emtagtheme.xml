@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EMTagTheme" parent="@style/_EMTagTheme"/>
+
+  <style name="_EMTagTheme" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/emtagtheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ff4444</item>
+    <item name="android:textSelectHandleLeft">@drawable/emtagtheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/emtagtheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/emtagtheme_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewEMTagTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/emtagtheme_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/emtagtheme_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonEMTagTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonEMTagTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerEMTagTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarEMTagTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarEMTagTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarEMTagTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigEMTagTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallEMTagTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleEMTagTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/emtagtheme_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/emtagtheme_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/emtagtheme_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>
